@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Nunito Font
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+} */
+
+.grid-view-flex {
+  display: flex;
+}
+.child-view-section-header {
+  font-size: 20px;
+  margin-top: 82px;
+  font-weight: 600;
+  padding-bottom: 0px;
+}
+
+.grid-view-flex .child-view-section-header {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  background-color: #ebebeb;
+  padding: 5px 0px 5px 25px;
+  border-bottom: 2px solid #2f2f2f61;
+}
